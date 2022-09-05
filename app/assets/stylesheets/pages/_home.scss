@@ -14,11 +14,15 @@
 }
 .banner-text{
   width: fit-content;
-  margin: 50px 40px;
+  margin-left: 60px;
+  margin-bottom: 30px;
     }
   .banner-text h1{
     font-size: 50px;
 
+  }
+  .banner-text h3{
+    font-weight: 30px;
   }
 .auth-buttons {
   max-width: 600px;
@@ -26,7 +30,7 @@
   justify-content: space-evenly;
   align-items: flex-end;
   // margin-left: 32px;
-  margin: 60px 0;
+  margin: 80px 0;
 
 
 }
@@ -35,8 +39,9 @@
   padding: 10px 12px;
   background-color: rgb(236, 193, 137);
   color: black;
+  font-weight: 400;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 26px;
 }
 .auth-buttons a:hover {
   font-weight: bold;

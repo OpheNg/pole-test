@@ -10,8 +10,8 @@
 
 
   <div class="auth-buttons">
-    <a href="#" class="register">Registrer</a>
-    <a href="#" class="login">Log in</a>
+    <%= link_to "Register", new_user_registration_path, class: "register" %>
+    <%= link_to "Log in", new_user_session_path, class: "login" %>
   </div>
 
 </div>
