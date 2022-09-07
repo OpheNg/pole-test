@@ -14,7 +14,7 @@
 
   <body>
 
-  <%= render "shared/navbar"unless params[:action] == 'home' || 'new_user_session' || 'new_user_registration' %>
+  <%= render "shared/navbar" unless params[:action] == 'home' || 'new_user_session' || 'new_user_registration'%>
   <%= render "shared/flashes" %>
 
     <%= yield %>
