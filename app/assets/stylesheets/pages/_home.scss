@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 .banner {
-  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662339824/click%20n%20pole/png_20220905_021232_0000_kivrm6.png');
-  // background-image: url("https://res.cloudinary.com/dhxefoe7j/image/upload/v1662339821/click%20n%20pole/20220905_023002_0000_uch4tt.png");
+  // background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662540392/click%20n%20pole/Mon_projet_qpqj6u.png');
+  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662540822/Nanny%20N%20Kids/20220907_105209_0000_l9ucnp.png');
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -12,18 +12,48 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.banner-text{
+
+// @media(max-width: 992px) {
+//   .banner {
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//   }
+// }
+
+// @media(max-width: 768px) {
+//   .banner {
+//     grid-template-columns: 1fr 1fr 1fr;
+//   }
+// }
+// @media(max-width: 400px) {
+//   .banner {
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
+
+.logobanner{
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.logobanner img{
+  max-width: 500px;
+  padding-right: 60px;
+}
+.banner-text {
   width: fit-content;
   margin-left: 60px;
   margin-bottom: 30px;
-    }
-  .banner-text h1{
-    font-size: 50px;
+}
 
-  }
-  .banner-text h3{
-    font-weight: 30px;
-  }
+.banner-text h1{
+  font-size: 50px;
+
+}
+.banner-text h3{
+  font-weight: 30px;
+}
 .auth-buttons {
   max-width: 600px;
   display: flex;
@@ -31,8 +61,6 @@
   align-items: flex-end;
   // margin-left: 32px;
   margin: 80px 0;
-
-
 }
 .auth-buttons a{
   text-decoration: none;
