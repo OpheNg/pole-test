@@ -1,15 +1,15 @@
 // Specific CSS for your home-page
 .banner {
   // background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662540392/click%20n%20pole/Mon_projet_qpqj6u.png');
-  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662540822/Nanny%20N%20Kids/20220907_105209_0000_l9ucnp.png');
+  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/v1662654994/click%20n%20pole/outside_1_pica77.png');
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  width: 100%;
-  height: 1000px;
+  // width: 900px;
+  height: 700px;
   color: white;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: flex-end;
 }
 
@@ -38,29 +38,33 @@
   right: 0;
 }
 .logobanner img{
-  max-width: 600px;
+  max-width: 500px;
   padding-right: 60px;
 }
 .banner-text {
   width: fit-content;
-  margin-left: 60px;
-  margin-bottom: 30px;
+  position: absolute;
+  bottom: 150px;
+  left: 24px;
+  // margin-left: 60px;
+  // margin-bottom: 30px;
+  // text-align: right;
 }
 
 .banner-text h1{
-  font-size: 50px;
+  font-size: 45px;
 
 }
 .banner-text h3{
   font-weight: 30px;
 }
 .auth-buttons {
-  max-width: 600px;
+  width: 400px;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
   // margin-left: 32px;
-  margin: 80px 0;
+  margin: 100px 60px;
 }
 .auth-buttons a{
   text-decoration: none;
@@ -69,7 +73,7 @@
   color: black;
   font-weight: 400;
   border-radius: 6px;
-  font-size: 26px;
+  font-size: 24px;
 }
 .auth-buttons a:hover {
   font-weight: bold;
@@ -77,4 +81,55 @@
 }
 a.login {
   padding: 10px 26px ;
+}
+
+.tuto-shop{
+  background-color: rgb(39, 37, 36);
+  color: white;
+  text-align: center;
+  height: 500px;
+  padding: 24px 20px;
+
+}
+.social-media{
+  background-color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 20px 20px;
+}
+.social-media i{
+  color: rgb(221, 157, 56);
+}
+.social-media ul{
+  padding-left: 0;
+  display: inline;
+  list-style: none;
+}
+.social-media li{
+  display: inline;
+}
+.social-media i{
+  font-size: 36px;
+ padding: 14px 20px;
+}
+.social-media i:hover{
+  color: rgb(236, 193, 137);
+}
+.find-share {
+  background-color: rgb(222, 221, 218);
+  height: 500px;
+  text-align: center;
+  padding: 24px 20px;
+}
+.mail {
+  background-color: black;
+  color: rgb(221, 157, 56);
+  padding-top: 14px;
+  padding-left: 20px;
+
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+
 }
