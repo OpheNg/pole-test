@@ -1,4 +1,109 @@
-<h1>Welcome</h1>
+<div class="dashbox">
 
-<%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete} %>
+  <div class="sidebar">
+    <div class="logo">
+      <%= link_to home_path, class: "navbar-brand" do %>
+      <%= image_tag "https://res.cloudinary.com/dhxefoe7j/image/upload/v1662339824/click%20n%20pole/20220905_015253_0000_jkdmxj.png", width:'40' %>
+    <% end %>
+    </div>
 
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345146/click%20n%20pole/home_iyuz6r.svg', width:'25' %>
+      <%= link_to "home", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665346049/click%20n%20pole/settings_czkhte.svg', width:'25' %>
+      <%= link_to "Profile", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345148/click%20n%20pole/message-circle_rwzj7i.svg', width:'25' %>
+      <%= link_to "Messages", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345149/click%20n%20pole/search_vbta9f.svg', width:'25' %>
+      <%= link_to "Search a pole", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345150/click%20n%20pole/share-2_ueowsl.svg', width:'25' %>
+      <%= link_to "Share your pole", dashboard_path %>
+    </div><hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345490/click%20n%20pole/Sans_titre_-_2022-10-09T215738.627_lclgyw.png', width:'25' %>
+      <%= link_to "Training sessions", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345149/click%20n%20pole/play-circle_dimviv.svg', width:'25' %>
+      <%= link_to "Tutorials", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345150/click%20n%20pole/shopping-bag_ccknhu.svg', width:'25' %>
+      <%= link_to "Shop corner", dashboard_path %>
+    </div>
+    <hr>
+    <div class="sidelink">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345147/click%20n%20pole/log-out_utyzob.svg', width:'25' %>
+      <%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete} %>
+    </div>
+    <br>
+  </div>
+
+
+
+  <div class="sidebox">
+
+    <div class="carousel">
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1662706930/click%20n%20pole/dragonfly_rgt_almbr7.png', width:"1000" %>
+    </div>
+
+    <div class="pains">
+      <div class="search-pole">
+        <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665312510/click%20n%20pole/Search_for_a_pole_s7tnsk.png', width:"300" %>
+      </div>
+
+      <div class="share-pole">
+        <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665312469/click%20n%20pole/Search_for_a_pole_2_wyprqy.png', width:"300" %>
+      </div>
+
+      <div class="training-session">
+        <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665312491/click%20n%20pole/Search_for_a_pole_1_jq3odi.png', width:"300" %>
+      </div>
+
+    </div>
+
+    <div class="secondary">
+      <div class="shop">
+
+        What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+
+      </div>
+
+      <div class="tutor">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+      </div>
+    </div>
+
+    <div class="anim">
+
+    <%=video_tag'https://res.cloudinary.com/dhxefoe7j/video/upload/v1665350587/click%20n%20pole/Sans_titre_1_vmfzai.mp4', width:'100%', :controls => true, :autoplay => true, :loop => true   %>
+
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+  </div>
+
+
+
+
+
+</div>

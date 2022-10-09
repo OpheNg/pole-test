@@ -1,0 +1,92 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color:rgb(255, 251, 248);
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.logo{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+  // margin-bottom: 10px;
+  background-color: rgb(255, 251, 248);
+  border-top-right-radius: 9px;
+}
+
+.logo p{
+  padding-top: 10px;
+}
+.logo img {
+  margin: 0 12px 0 8px;
+  border-top-right-radius: 9px;
+
+}
+.sidelink{
+  display: flex;
+  width: 100%;
+  // justify-content: flex-start;
+}
+.sidelink a{
+  text-decoration: none;
+  color: rgb(48, 47, 47);
+  font-weight: 600;
+}
+.sidelink a:hover{
+  color: rgb(169, 169, 169);
+  font-weight:800;
+}
+.sidelink img{
+  margin: 0 12px 0 8px;
+}
+
+
+
+
+.sidebox{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:200px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+}
+.carousel img{
+  width: 100%;
+  // border-radius: 4px;
+}
+.pains{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.secondary{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.shop{
+  margin: 10px 12px;
+  max-width: 400px;
+
+}
+.tutor{
+  margin: 10px 12px;
+  max-width: 400px;
+}
+
+
