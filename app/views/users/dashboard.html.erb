@@ -1,11 +1,9 @@
-<h1>Welcome</h1>
-
 <div class="dashbox">
 
   <div class="sidebar">
     <div class="logo">
-      <%= image_tag "https://res.cloudinary.com/dhxefoe7j/image/upload/v1662339824/click%20n%20pole/20220905_015253_0000_jkdmxj.png", width:'30' %>
-      <p>Welcome</p>
+      <%= image_tag "https://res.cloudinary.com/dhxefoe7j/image/upload/v1662339824/click%20n%20pole/20220905_015253_0000_jkdmxj.png", width:'40' %>
+      <%# <p>Welcome</p> %>
     </div>
 
     <div class="sidelink">
@@ -51,14 +49,15 @@
       <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1665345147/click%20n%20pole/log-out_utyzob.svg', width:'25' %>
       <%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete} %>
     </div>
-
-
+    <br>
   </div>
+
+
 
   <div class="sidebox">
 
     <div class="carousel">
-      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1662706930/click%20n%20pole/dragonfly_rgt_almbr7.png', width:"800" %>
+      <%= image_tag'https://res.cloudinary.com/dhxefoe7j/image/upload/v1662706930/click%20n%20pole/dragonfly_rgt_almbr7.png', width:"1000" %>
     </div>
 
     <div class="pains">
@@ -79,14 +78,21 @@
     <div class="secondary">
       <div class="shop">
 
+        What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+
       </div>
 
-      <div class="tuto">
-
+      <div class="tutor">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
       </div>
     </div>
 
     <div class="anim">
+
+    <%=video_tag'https://res.cloudinary.com/dhxefoe7j/video/upload/v1665350587/click%20n%20pole/Sans_titre_1_vmfzai.mp4', width:'100%', :controls => true  %>
+
 
     </div>
 
