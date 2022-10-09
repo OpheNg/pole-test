@@ -18,8 +18,12 @@
 
 
         <div class="auth-buttons">
-          <%= link_to "Register", new_user_registration_path, class: "register" %>
-          <%= link_to "Log in", new_user_session_path, class: "login" %>
+          <% if user_signed_in? %>
+            <%= link_to "My account", dashboard_path%>
+          <% else %>
+            <%= link_to "Register", new_user_registration_path, class: "register" %>
+            <%= link_to "Log in", new_user_session_path, class: "login" %>
+          <% end %>
         </div>
 
       </div>
