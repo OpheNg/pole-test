@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get 'find_a_pole', to: 'users#find_a_pole'
   get 'share', to: 'users#share'
 
+  get '/users/:id', to: 'sessions#index', as: 'user'
 
 
 

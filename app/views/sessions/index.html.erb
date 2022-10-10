@@ -1,1 +1,21 @@
-<h2>Training sessions</h2>
+<div class="trainingbox">
+
+  <h2>Training sessions</h2>
+
+  <div class="all-sessions">
+
+    <% @sessions.each do |session| %>
+      <%= session.date %>
+      <%= session.star_time %>
+      <%= session.end_time %>
+      <%= session.address %>
+    <% end %>
+
+
+  </div>
+
+  <%= link_to "Add a session", new_session_path %>
+
+
+
+</div>
