@@ -16,6 +16,7 @@
 
   <%#= render "shared/navbar" unless params[:action] == 'home' %>
   <%= render "shared/flashes" %>
+  <%= render "shared/sidebar" unless params[:action] == 'home' || params[:action] == 'dashboard' %>
 
     <%= yield %>
   </body>
