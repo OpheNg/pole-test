@@ -5,10 +5,15 @@ Rails.application.routes.draw do
   end
   root to: 'pages#home'
 
+  resources :sessions
+  resources :hosts
   # user controller
 
   get 'dashboard', to: 'users#dashboard'
   get 'profile', to: 'users#profile'
+  get 'find_a_pole', to: 'users#find_a_pole'
+  get 'share', to: 'users#share'
+
 
 
   # pages controller
